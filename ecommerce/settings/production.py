@@ -38,7 +38,10 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    # third-party apps
     'bootstrap3',
+    'storages',
+    # my_apps
     'accounts',
     'addresses',
     'analytics',
@@ -156,6 +159,8 @@ STATIC_ROOT = os.path.join(os.path.dirname(BASE_DIR), 'static_cdn', 'static_root
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(os.path.dirname(BASE_DIR), 'static_cdn', 'media_root')
+
+from ecommerce.aws.conf import *
 
 LOGOUT_REDIRECT_URL = '/login/'
 
