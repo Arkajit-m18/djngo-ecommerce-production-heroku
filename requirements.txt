@@ -13,10 +13,12 @@ channels-redis==2.3.3
 chardet==3.0.4
 constantly==15.1.0
 daphne==2.2.5
+dj-database-url==0.5.0
 Django==2.1.7
 django-bootstrap3==11.0.0
 django-braces==1.13.0
 Faker==1.0.4
+gunicorn==19.9.0
 hiredis==1.0.0
 hyperlink==18.0.0
 idna==2.8
@@ -24,6 +26,7 @@ incremental==17.5.0
 misaka==2.1.1
 msgpack==0.6.1
 Pillow==5.4.1
+psycopg2==2.8.2
 pycparser==2.19
 PyHamcrest==1.9.0
 pypiwin32==223
