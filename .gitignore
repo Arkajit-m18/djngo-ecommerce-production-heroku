@@ -8,6 +8,7 @@ pip-selfcheck.json
 
 # Django related 
 ecommerce/settings/local.py
+delete/
 # src/<yourproject>/settings/local.py
 # static-cdn/  # any collected static files 
 
