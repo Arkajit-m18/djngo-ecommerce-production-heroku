@@ -1,7 +1,7 @@
 import datetime, os
 
 AWS_ACCESS_KEY_ID = os.environ.get('AWS_ACCESS_KEY_ID', "AKIAWSI5VAVSCDTOF6PT")
-AWS_SECRET_KEY = os.environ.get('AWS_SECRET_KEY', "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")
+AWS_SECRET_ACCESS_KEY = os.environ.get('AWS_SECRET_ACCESS_KEY', "/t9YHrUeOolsAJ22+ZR0dJN9biXNS6nAYHqs7tuB")
 AWS_USERNAME = "arkajit-ecommerce-django"
 AWS_GROUPNAME = "django-ecommerce-group"
 AWS_FILE_EXPIRE = 200
