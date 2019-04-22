@@ -29,6 +29,19 @@ DEBUG = False
 
 ALLOWED_HOSTS = ['.herokuapp.com']
 
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_HOST_USER = 'arkajit.18@gmail.com' 
+EMAIL_HOST_PASSWORD = 'yourpassword'
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
+DEFAULT_FROM_EMAIL = 'django ecommerce <arkajit.18@gmail.com>'
+
+MANAGERS = (
+    ('Arkajit Mondal', 'arkajit.18@gmail.com'),
+)
+ 
+
+ADMINS = MANAGERS
 
 # Application definition
 
